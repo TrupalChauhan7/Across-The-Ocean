@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discover Paris</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            line-height: 1.6;
+            background: #f9f9f9;
+            color: #333;
+            padding-top: 70px;
+        }
+
+        header {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background: #d1001f;
+            color: #fff;
+            padding: 10px 20px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            z-index: 1000;
+        }
+
+        header nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header nav a {
+            color: #fff;
+            text-decoration: none;
+            margin-left: 20px;
+            font-weight: 600;
+        }
+
+        .hero {
+            background: url('Paris_files/paris.jpg') no-repeat center center/cover;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .section {
+            margin-bottom: 50px;
+        }
+
+        .section h2 {
+            font-size: 2rem;
+            color: #0078D7;
+            margin-bottom: 20px;
+        }
+
+        .card {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .card-item {
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            flex: 1 1 calc(33.333% - 20px);
+            max-width: calc(33.333% - 20px);
+            transition: transform 0.3s;
+        }
+
+        .card-item:hover {
+            transform: translateY(-5px);
+        }
+
+        .card-item img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .card-item h3 {
+            font-size: 1.5rem;
+            color: #0078D7;
+            margin: 15px;
+        }
+
+        .card-item p {
+            padding: 0 15px 15px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #333;
+            color: #fff;
+        }
+
+        footer p {
+            font-size: 0.9rem;
+        }
+
+        .package {
+            background: #eef;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+
+        .package h4 {
+            font-size: 1.2rem;
+            margin-bottom: 10px;
+        }
+
+        .package ul {
+            padding-left: 20px;
+            list-style-type: disc;
+        }
+
+        @media (max-width: 768px) {
+            .card-item {
+                flex: 1 1 calc(50% - 20px);
+                max-width: calc(50% - 20px);
+            }
+
+            .hero h1 {
+                font-size: 2rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .card-item {
+                flex: 1 1 100%;
+                max-width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div>Discover Paris</div>
+            <div>
+                <a href="#eiffel">Eiffel Tower</a>
+                <a href="#louvre">Louvre Museum</a>
+                <a href="#arc">Arc de Triomphe</a>
+                <a href="#seine">Seine River</a>
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Welcome to Paris</h1>
+    </section>
+
+    <div class="container">
+        <div id="eiffel" class="section">
+            <h2>Eiffel Tower</h2>
+            <div class="card">
+                <div class="card-item">
+                    <img src="Paris_files/image001.jpg" alt="Eiffel Tower">
+                    <h3>Eiffel Tower</h3>
+                    <p>The Eiffel Tower, an iconic symbol of Paris, stands tall at 1,063 feet. Known for its breathtaking views and rich history, it features observation decks, a Michelin-starred restaurant, and a champagne bar.</p> 
+                    <p>Visitors can enjoy its dazzling lights at night and explore the history behind its construction during the 1889 World’s Fair.</p>
+                </div>
+            </div>
+            <div class="package">
+                <h4>Note:</h4>
+                <ul>
+                    <li>Eiffel Tower Summit Tour: €25 per person</li>
+                    <li>Guided Evening Lights Tour: €45 per person</li>
+                    <li>Champagne at the Summit Experience: €55 per person</li>                    
+                </ul>
+            </div>
+        </div>
+
+        <div id="louvre" class="section">
+            <h2>Lourve Museum</h2>
+            <div class="card">
+                <div class="card-item">
+                    <img src="Paris_files/image007.jpg" alt="Lourve Museum">
+                    <h3>Louvre Museum</h3>
+                    <p>As the world's largest art museum, the Louvre is home to the famous Mona Lisa and thousands of masterpieces. The museum’s glass pyramid entrance is as iconic as the treasures it houses. </p>
+                    <p>Stroll through its vast halls to witness art from ancient civilizations to the 19th century.</p>
+                </div>
+            </div>
+            <div class="package">
+                <h4>Note:</h4>
+                <ul>
+                    <li>Standard Entry: €17 per person</li>
+                    <li>Guided Tour with Skip-the-Line Access: €50 per person</li>
+                    <li>Private Night Tour: €120 per person</li>
+                    
+                </ul>
+            </div>
+        </div>
+
+        <div id="arc" class="section">
+            <h2>Arc de Triomphe</h2>
+            <div class="card">
+                <div class="card-item">
+                    <img src="Paris_files/image003.jpg" alt="Arc de Triomphe">
+                    <h3>Arc de Triomphe</h3>
+                    <p>The Arc de Triomphe honors those who fought for France. Standing at the top of the Champs-Élysées, it offers a panoramic view of Paris.</p>
+                    <p> The Tomb of the Unknown Soldier beneath it symbolizes the nation’s respect for those lost in wars.</p>
+                </div>
+            </div>
+            <div class="package">
+                <h4>Note:</h4>
+                <ul>
+                    <li>General Entry: €13 per person</li>
+                    <li>Rooftop Access with Panoramic View: €18 per person</li>
+                    <li>Private Guided Tour: €60 per person</li>
+
+                </ul>
+            </div>
+        </div>
+
+        <div id="seine" class="section">
+            <h2> Seine River</h2>
+            <div class="card">
+                <div class="card-item">
+                    <img src="Paris_files/image005.jpg" alt="Seine Rivere">
+                    <h2>Seine River</h2>
+                    <p>The Seine River, a UNESCO World Heritage Site, flows gracefully through Paris. Take a scenic cruise to see landmarks like Notre Dame and the Eiffel Tower.</p> 
+                    <p>Its bridges and riverbanks create a romantic atmosphere, especially at sunset.</p>
+                </div>
+            </div>
+            <div class="package">
+                <h4>Note:</h4>
+                <ul>
+                    <li>Standard River Cruise: €15 per person</li>
+                    <li>Sunset Dinner Cruise: €70 per person</li>
+                    <li>Private Luxury Yacht Experience: €250 per person</li>
+
+                </ul>
+            </div>
+        </div>
+
+
+        <div id="package" class="section">
+            <h2>Paris All-Inclusive Package</h2>
+            <p>Experience the charm of Paris with our all-inclusive travel package designed for international tourists. This package includes:</p>
+            <ul>
+                <li>4-Star Accommodation for 3 Days/2 Nights</li>
+                <li>Guided tours to the Eiffel Tower, Louvre Museum, and more</li>
+                <li>Airport pick-up and drop-off</li>
+                <li>Daily breakfast and a Seine River dinner cruise</li>
+                <li>Luxury transportation for city tours</li>
+            </ul>
+            <p><strong>Package Price:</strong> $2,800 per person</p>
+        </div>
+
+        <div class="appointment">
+            <h2>Make an Appointment for Additional Details</h2>
+            <a href="mailto:acrosstheocean55@gmail.com">Contact Us Now</a>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Discover London. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
