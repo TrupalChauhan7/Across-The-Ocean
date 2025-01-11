@@ -25,16 +25,16 @@
 Below are some glimpses of the project:
 
 #### Home Section
-![Home Section](screnshot/Screenshot1.png)
-![Services](screnshot/Screenshot2.png)
+![Home Section](screenshot/Screenshot1.png)
+![Services](screenshot/Screenshot2.png)
 
 #### Destination Highlights
-![Destination Highlights](screnshot/Screenshot4.png)
-![Know more about your destination](screnshot/Screenshot5.png)
-![Information about package](screnshot/Screenshot6.png)
+![Destination Highlights](screenshot/Screenshot4.png)
+![Know more about your destination](screenshot/Screenshot5.png)
+![Information about package](screenshot/Screenshot6.png)
 
 #### Contact Section
-![Contact Section](screnshot/Screenshot3.png)
+![Contact Section](screenshot/Screenshot3.png)
 
 ### How to Run Locally
 1. Clone the repository:
