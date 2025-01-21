@@ -82,6 +82,6 @@ This project is hosted on [Trupal Chauhan]'s GitHub account but was co-developed
 This project was collaboratively created by:
 
 - **Trupal Chauhan** ([GitHub Profile](https://github.com/TrupalChauhan7))
-- **Ishit Patele** ([GitHub Profile](https://github.com/ishit-patel02))
+- **Ishit Patel** ([GitHub Profile](https://github.com/ishit-patel02))
 
 
