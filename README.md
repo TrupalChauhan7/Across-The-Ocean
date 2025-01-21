@@ -71,8 +71,17 @@ The contact section helps users connect with the team:
 ### License
 This project is licensed under the MIT License. Feel free to use, modify, and distribute this project.
 
+
 ### Contact
 - **Developer**: Trupal Chauhan and Ishit Patel
 - **Email**: acrosstheocean55@gmail.com
 - **Location**: Ahmedabad, Gujarat
+
+## Ownership
+This project is hosted on [Trupal Chauhan]'s GitHub account but was co-developed with [Ishit Patel].
+This project was collaboratively created by:
+
+- **Trupal Chauhan** ([GitHub Profile](https://github.com/TrupalChauhan7))
+- **Ishit Patele** ([GitHub Profile](https://github.com/ishit-patel02))
+
 
