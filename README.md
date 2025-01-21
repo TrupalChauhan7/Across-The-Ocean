@@ -72,7 +72,7 @@ The contact section helps users connect with the team:
 This project is licensed under the MIT License. Feel free to use, modify, and distribute this project.
 
 ### Contact
-- **Developer**: Across the Ocean Team
+- **Developer**: Trupal Chauhan and Ishit Patel
 - **Email**: acrosstheocean55@gmail.com
 - **Location**: Ahmedabad, Gujarat
 
